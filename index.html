@@ -3,22 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaewan Bak</title>
+    <title>Jaewan Bak - CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
+            line-height: 1.6;
             margin: 0;
-            padding: 50px;
+            padding: 0;
             background-color: #f4f4f4;
-        }
-        h1 {
             color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            margin: 0 0 10px;
+            font-size: 1.8em;
+        }
+        .skills span {
+            display: inline-block;
+            margin: 5px 10px 0 0;
+            padding: 5px 10px;
+            background: #333;
+            color: #fff;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Jaewan Bak's Website</h1>
-    <p>This is my personal GitHub Pages site.</p>
+    <header>
+        <h1>Jaewan Bak</h1>
+        <p>Creative Developer | Innovator</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Summary</h2>
+            <p>Innovative developer with 5+ years of experience in building user-friendly web applications and creative designs.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Python</span>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <p><strong>Senior Developer</strong> - XYZ Corp (2021 - Present)</p>
+            <p>- Led a team to develop scalable web applications.</p>
+            <p><strong>Frontend Developer</strong> - ABC Inc. (2018 - 2021)</p>
+            <p>- Built interactive user interfaces with React.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <p><strong>Dynamic Portfolio</strong>: A dynamic CV builder (GitHub Link)</p>
+            <p><strong>AI Assistant</strong>: Built a chatbot using Python and TensorFlow (GitHub Link)</p>
+        </section>
+    </div>
+    <footer>
+        <p>Contact: jaewan.bak@example.com | GitHub: jaewan-bak | LinkedIn: JaewanBak</p>
+    </footer>
 </body>
 </html>
