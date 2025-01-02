@@ -1,9 +1,23 @@
+/* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+a {
+    color: #0078ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
 header.hero {
     background: linear-gradient(to right, #0078ff, #00b3ff);
     color: #fff;
@@ -11,7 +25,7 @@ header.hero {
     padding: 100px 20px;
 }
 header h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
 }
 header p {
@@ -19,13 +33,20 @@ header p {
     margin: 10px 0 20px;
 }
 header .btn {
+    display: inline-block;
     padding: 10px 20px;
     background: #fff;
     color: #0078ff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    margin-top: 10px;
 }
+header .btn:hover {
+    background: #f4f4f4;
+}
+
+/* Navigation Styles */
 nav ul {
     display: flex;
     justify-content: center;
@@ -39,13 +60,27 @@ nav ul li {
 }
 nav ul li a {
     color: #f4f4f4;
-    text-decoration: none;
     font-weight: bold;
 }
+nav ul li a:hover {
+    color: #0078ff;
+}
+
+/* Section Styles */
 .section {
     padding: 50px 20px;
     text-align: center;
 }
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Skills Section */
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +93,10 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
 }
+
+/* Timeline Styles */
 .timeline {
     max-width: 800px;
     margin: 0 auto;
@@ -71,11 +109,30 @@ nav ul li a {
     border-radius: 5px;
 }
 .timeline-item ul {
-    padding-left: 20px;
     margin: 10px 0 0;
+    padding-left: 20px;
     list-style: disc;
     text-align: left;
 }
+
+/* Awards Section */
+#additional ul {
+    list-style-type: none;
+    padding: 0;
+}
+#additional ul li {
+    margin-bottom: 20px;
+}
+#additional ul ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+#additional ul li strong {
+    color: #0078ff;
+}
+
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 10px;
