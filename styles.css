@@ -180,8 +180,8 @@ footer {
 }
 
 .video-container iframe {
-    width: 560px; /* 원하는 크기로 조정 */
-    height: 315px; /* YouTube 기본 비율 16:9 */
+    width: 1920px; /* 원하는 크기로 조정 */
+    height: 1080px; /* YouTube 기본 비율 16:9 */
     border: none;
     border-radius: 10px; /* 모서리를 둥글게 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
