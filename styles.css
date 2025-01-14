@@ -171,3 +171,18 @@ footer {
     transform: scale(1.05);
     background-color: #005bb5;
 }
+/* YouTube Section */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    width: 560px; /* 원하는 크기로 조정 */
+    height: 315px; /* YouTube 기본 비율 16:9 */
+    border: none;
+    border-radius: 10px; /* 모서리를 둥글게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
